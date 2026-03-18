@@ -1,106 +1,107 @@
-Telecom Customer Churn Analysis
-Understanding customer churn behavior and identifying key factors that influence retention using Power BI.
-
-📌 Table of Contents
-
-
+# 📊 Telecom Customer Churn Analysis
+Understanding customer churn behavior and identifying key drivers impacting retention using Power BI.
 
 ---
-## 📖 Overview
-The Telecom Customer Churn Analysis project aims to help telecom companies understand customer behavior and identify the primary factors contributing to churn.  
 
-Using Power BI, the analysis visualizes key metrics such as churn rate, customer tenure, payment methods, and service usage patterns—providing clear, data-driven insights to improve customer retention.
+## 📖 Overview
+This project analyzes telecom customer data to uncover patterns and trends that contribute to customer churn. Using Power BI, the dashboard provides interactive visualizations of customer demographics, service usage, contract types, and billing behavior to generate actionable business insights.
 
 ---
 
 ## 🎯 Business Objective
-The main goals of this project are to:
-
-- Identify why customers leave the telecom company  
-- Find key churn drivers such as contract type, billing method, and services used  
-- Enable data-driven decisions to reduce churn and improve customer satisfaction  
+- Identify key factors driving customer churn  
+- Analyze customer behavior across tenure, services, and billing methods  
+- Compare churned vs retained customers  
+- Enable data-driven strategies to improve customer retention and reduce churn  
 
 ---
 
 ## 📂 Dataset
 - **Dataset Name:** Telecom Customer Churn Dataset  
-- **Records:** 7,042  
+- **Records:** ~7,000 customers  
 - **Columns:** 21  
 - **Source:** Kaggle  
-- **Attributes:** Customer demographics, contract type, payment methods, internet services, tenure, and churn status  
+- **Attributes:** Customer demographics, tenure, contract type, payment methods, internet services, and churn status  
 
 ---
 
 ## 🛠️ Tools & Technologies
 - Power BI  
 - Power Query  
-- DAX  
+- DAX (Data Analysis Expressions)  
 - Excel / CSV  
 
 ---
 
 ## 📁 Project Structure
-
-│
-|── Telecom_Customer_Churn_Analysis.csv
-├── README.md
-│
-└── images/
-└── dashboard.png
 ---
 
 ## 🧹 Data Preparation
-Performed detailed data cleaning and transformation before visualization:
+Performed data cleaning and transformation to ensure high-quality analysis:
 
-- Removed duplicate entries  
-- Handled missing values (especially in `TotalCharges`)  
-- Converted binary fields (e.g., `SeniorCitizen` → Yes/No)  
+- Removed duplicate customer records  
+- Handled missing values in `TotalCharges`  
+- Converted data types (tenure, charges, churn)  
+- Trimmed and standardized categorical fields  
+- Created calculated columns:
+  - Tenure Band (0–6, 6–12, 12+ months)  
+- Created DAX measures:
+  - Total Customers  
+  - Churned Customers  
+  - Churn Rate (%)  
+  - Avg Monthly Charges (Churned vs Retained)  
 
-### ➕ Feature Engineering
-Created calculated columns for:
-- Tenure (in months)  
-- Number of services used  
-- Customer segmentation (Partners, Dependents, Senior Citizens)  
-📌 *Refer to the data model diagram below:*  
-![Data Model](images/data_model.png)
+- Transformed service columns using **Unpivoting** for service-level churn analysis  
+
 ---
 
 ## 📊 Dashboard & Visuals
-📌 *Refer to the data model diagram below:*  
-![Data Model](images/powerbi.png)
+The Power BI dashboard provides a comprehensive view of churn behavior:
 
-The Power BI dashboard provides a complete view of customer churn behavior through interactive visuals:
+### 🔹 KPI Metrics
+- Total Customers: **7043**  
+- Churned Customers: **1869**  
+- Churn Rate: **26.54%**  
+- Monthly Charges: **456.11K**  
 
-- **KPI Cards:** Total Customers, Churned Customers, Churn Rate, Monthly Charges, Total Charges  
-- **Donut Charts:** Gender distribution and Paperless Billing  
-- **Bar Charts:** Internet Service, Contract Type, Payment Methods  
-- **Tenure Analysis:** Customer lifecycle and retention duration  
-- **Service Usage:** Add-on services such as Online Backup, Tech Support, and Streaming TV
+### 🔹 Visual Insights
+- **Gender Overview:** Nearly equal distribution (Male vs Female)  
+- **Contract Type:** Month-to-month contracts dominate churn  
+- **Tenure Analysis:** Highest churn in early tenure (0–6 months)  
+- **Payment Method:** Electronic check users show higher churn  
+- **Internet Services:** Fiber optic users churn more than DSL users  
+- **Add-On Services:** Customers lacking support services churn more  
+- **Customer Retention:** Majority retained (~73%), but churn is significant (~26%)  
 
-  ## 🔍 Key Findings
-- Customers with **month-to-month contracts** show the highest churn rate  
-- Customers using **electronic check payment methods** are more likely to churn  
-- **Fiber optic users** churn more frequently compared to DSL users  
-- High adoption of **paperless billing** indicates a shift toward digital services  
-- **Short-tenure customers (1–2 years)** have a significantly higher churn probability  
+---
+
+## 🔍 Key Findings
+- Customers with **month-to-month contracts** have the highest churn (~55%)  
+- **Short-tenure customers (0–6 months)** show the highest churn (~53%)  
+- Customers using **electronic check payments** are more likely to churn  
+- **Fiber optic users** churn more compared to DSL users  
+- Customers without **tech support and online security** are more likely to leave  
+- Churn rate overall is **~26.5%**, indicating significant retention opportunity  
 
 ---
 
 ## 💡 Recommendations
-- Offer **discounts or incentives for long-term contracts** to improve retention  
-- Promote **auto-pay options** to reduce churn from manual payment methods  
-- Enhance **fiber optic service quality and customer support experience**  
-- Target **digital users (paperless billing customers)** with personalized engagement strategies  
+- Encourage **long-term contracts** through discounts and incentives  
+- Promote **auto-pay and digital payment methods**  
+- Improve **fiber optic service quality and customer experience**  
+- Offer **bundled services (Tech Support, Security)** to increase stickiness  
+- Focus retention campaigns on **new customers (0–6 months tenure)**  
 
 ---
 
 ## 📈 Business Impact
-This analysis enables organizations to:
+This analysis helps organizations to:
 
-- Identify **at-risk customers early**  
-- Develop **targeted retention strategies**  
-- Improve **customer satisfaction and lifetime value**  
-- Increase **profitability through data-driven decision-making**  
+- Identify **high-risk churn segments early**  
+- Design **targeted retention strategies**  
+- Improve **customer satisfaction and engagement**  
+- Increase **customer lifetime value (CLV)**  
+- Drive **profitability through data-driven decision-making**  
 
 ---
 
@@ -108,6 +109,6 @@ This analysis enables organizations to:
 **Anagha Parkhi**  
 MS in Business Analytics | Data Analyst  
 
-- LinkedIn: *(Add your LinkedIn profile link)*  
-- Tableau: *(Add your Tableau dashboard link)*  
+- LinkedIn: *(Add your LinkedIn link)*  
+- Tableau: *(Add your Tableau/Public dashboard link)*  
 - Email: *(Optional)*  
