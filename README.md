@@ -1,4 +1,4 @@
-# 📊 Telecom Customer Churn Analysis
+# 🎯  Telecom Customer Churn Analysis
 Understanding customer churn behavior and identifying key drivers impacting retention using Power BI.
 
 ---
@@ -8,7 +8,7 @@ This project analyzes telecom customer data to uncover patterns and trends that 
 
 ---
 
-## 🎯 Business Objective
+## 📊 Business Objective
 - Identify key factors driving customer churn  
 - Analyze customer behavior across tenure, services, and billing methods  
 - Compare churned vs retained customers  
@@ -25,6 +25,9 @@ This project analyzes telecom customer data to uncover patterns and trends that 
 
 ---
 
+📌 *Refer to the data model diagram below:*  
+![Data Model](images/churn_model.png)
+
 ## 🛠️ Tools & Technologies
 - Power BI  
 - Power Query  
@@ -34,7 +37,19 @@ This project analyzes telecom customer data to uncover patterns and trends that 
 ---
 
 ## 📁 Project Structure
----
+
+telecom-customer-churn-analysis/
+
+│  
+├── Telecom_Customer_Churn_Analysis.csv   
+├── README.md  
+│  
+├── dashboard/  
+│└── Telecom_Churn_Dashboard.pbix  
+│  
+└── images/  
+├── dashboard.png  
+└── data_model.png  
 
 ## 🧹 Data Preparation
 Performed data cleaning and transformation to ensure high-quality analysis:
@@ -56,6 +71,10 @@ Performed data cleaning and transformation to ensure high-quality analysis:
 ---
 
 ## 📊 Dashboard & Visuals
+
+📌 *Refer to the data model diagram below:*  
+![Data Model](images/churn.png)
+
 The Power BI dashboard provides a comprehensive view of churn behavior:
 
 ### 🔹 KPI Metrics
@@ -108,7 +127,3 @@ This analysis helps organizations to:
 ## 👩‍💻 Author & Contact
 **Anagha Parkhi**  
 MS in Business Analytics | Data Analyst  
-
-- LinkedIn: *(Add your LinkedIn link)*  
-- Tableau: *(Add your Tableau/Public dashboard link)*  
-- Email: *(Optional)*  
