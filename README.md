@@ -1,21 +1,19 @@
-# 🎯  Telecom Customer Churn Analysis
-Understanding customer churn behavior and identifying key drivers impacting retention using Power BI.
+🔥 Telecom Customer Churn Analysis & Prediction
+---
+
+## 🎯 📌 Project Overview  
+Customer churn is a critical business problem that directly impacts revenue and customer retention. This project analyzes customer behavior and builds predictive models to identify customers at risk of churn, enabling proactive retention strategies.
 
 ---
 
-## 📖 Overview
-This project analyzes telecom customer data to uncover patterns and trends that contribute to customer churn. Using Power BI, the dashboard provides interactive visualizations of customer demographics, service usage, contract types, and billing behavior to generate actionable business insights.
-
----
-
-## 📊 Business Objective
-- Identify key factors driving customer churn  
+##  Business Problem
+- High customer churn leads to revenue loss
 - Analyze customer behavior across tenure, services, and billing methods  
+- Difficult to identify at-risk customers early
+- Need data-driven insights for retention strategies and reduce churn 
 - Compare churned vs retained customers  
-- Enable data-driven strategies to improve customer retention and reduce churn  
 
 ---
-
 ## 📂 Dataset
 - **Dataset Name:** Telecom Customer Churn Dataset  
 - **Records:** ~7,000 customers  
