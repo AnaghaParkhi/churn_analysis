@@ -1,12 +1,12 @@
 🔥 Telecom Customer Churn Analysis & Prediction
 ---
 
-## 🎯 📌 Project Overview  
+## 🎯 Project Overview  
 Customer churn is a critical business problem that directly impacts revenue and customer retention. This project analyzes customer behavior and builds predictive models to identify customers at risk of churn, enabling proactive retention strategies.
 
 ---
 
-##  Business Problem
+## 📌 Business Problem
 - High customer churn leads to revenue loss
 - Analyze customer behavior across tenure, services, and billing methods  
 - Difficult to identify at-risk customers early
@@ -70,7 +70,6 @@ Performed data cleaning and transformation to ensure high-quality analysis:
 
 ## 📊 Dashboard & Visuals
 
-📌 *Refer to the data model diagram below:*  
 ![Data Model](images/churn.png)
 
 The Power BI dashboard provides a comprehensive view of churn behavior:
