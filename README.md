@@ -121,6 +121,13 @@ This analysis helps organizations to:
 
 ---
 
-## 👩‍💻 Author & Contact
-**Anagha Parkhi**  
-MS in Business Analytics | Data Analyst  
+### 👤 Author
+
+**Anagha Parkhi**
+MS in Business Analytics  
+Data Analyst | BI Developer
+
+- LinkedIn: [https://www.linkedin.com/in/anaghaparkhi](https://www.linkedin.com/in/anaghaparkhi)  
+- GitHub: [https://github.com/anaghaparkhi](https://github.com/anaghaparkhi)  
+
+
