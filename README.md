@@ -68,7 +68,8 @@ Performed data cleaning and transformation to ensure high-quality analysis:
 
 ---
 
-## 📊 Dashboard & Visuals
+## 📊 Dashboard & Visuals  
+👉 <a href="https://app.powerbi.com/groups/me/reports/9392bf4a-b2c0-4cd6-bb6e-634ff633c674/c25e5caa43dee9336d2c?experience=power-bi">POWER BI DashBoard</a>
 
 ![Data Model](images/churn.png)
 
